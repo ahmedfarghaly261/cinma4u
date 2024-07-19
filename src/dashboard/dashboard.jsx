@@ -13,7 +13,7 @@ function Dashboard() {
         <div className="dashboard">
 
             <div className="hed"> <Header /></div>
-            <div className="sec"> <h2><b> Trending updates <br /></b></h2> <br />  <ImgeSlider/> </div>
+            <div className="sec">   <ImgeSlider/> </div>
        <div className="line">  f <hr  width="" color="#fa172e" size="10px" /> </div>
             <div className="sec"> 
             <h2>  <RiMovie2Fill id="movie_icon" />  Trending Movies

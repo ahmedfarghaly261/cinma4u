@@ -17,8 +17,8 @@ background-color: #212121 !important;
 #NavLink:hover{
     color: rgb(188, 51, 51);
 }
-#NavLink i{
+#NavLink .i{
     font-size: 1.5em;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
 }

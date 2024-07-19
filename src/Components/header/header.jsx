@@ -4,6 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import mainLogo from "./../img/mainLogo.png"
+import { IoHome } from "react-icons/io5";
+import { RiMovie2Fill } from "react-icons/ri";
+import { MdMovieCreation } from "react-icons/md";
+import { FaSearch } from "react-icons/fa";
 
 function Header() {
     return (
@@ -16,12 +20,10 @@ function Header() {
                             <img id="LogoImge" src={mainLogo} alt="" />
                         </div>
                         <Nav id="nav_items" className="-auto">
-                            <Nav.Link > <NavLink id="NavLink" to="/">Home </NavLink> </Nav.Link>
-                            <Nav.Link ><NavLink to="/More_movies"  id="NavLink" >Movies</NavLink>  </Nav.Link>
-                            <Nav.Link > <NavLink id="NavLink" to="/">Series</NavLink> </Nav.Link>
-                             <NavLink id="NavLink" to="/"><i class="fa-sharp fa-solid fa-magnifying-glass"></i> </NavLink>
-                           
-                            
+                            <Nav.Link > <NavLink id="NavLink" to="/"> <IoHome /> Home </NavLink> </Nav.Link>
+                            <Nav.Link ><NavLink to="/More_movies" id="NavLink" > <RiMovie2Fill /> Movies</NavLink>  </Nav.Link>
+                            <Nav.Link > <NavLink id="NavLink" to="/"> <MdMovieCreation /> Series</NavLink> </Nav.Link>
+                            <NavLink id="NavLink" to="/"> <FaSearch className="i" /> </NavLink>
                         </Nav>
                     </Container>
                 </Navbar>

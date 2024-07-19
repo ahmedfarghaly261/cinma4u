@@ -1,4 +1,7 @@
 import "./footer.css"
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 function Footer() {
     return (
         <>
@@ -8,9 +11,16 @@ function Footer() {
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <h6>About</h6>
-                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
-                                porro dignissimos doloremque quo vero nam accusantium a sapiente quasi neque velit fugit
-                                optio esse alias explicabo, libero quaerat possimus magnam. </p>
+                            <h2 class="text-justify"> made by @Ahmed Farghaly Mahmoud  </h2>
+                            <br />
+                            <p> social media </p>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><a href="https://www.facebook.com/" class="facebook"><FaFacebookF /></a></li>
+                                <li><a class="email" href="">  <SiGmail /> </a></li>
+                                <li><a class="linkedin" href="https://www.linkedin.com/in/ahmed-farghaly-b65b09236/"> <FaLinkedin /> </a></li>
+                            </ul>
+                        </div>
                         </div>
 
                         <div class="col-xs-6 col-md-3">
@@ -47,10 +57,9 @@ function Footer() {
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a class="dribbble" href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/" class="facebook"><FaFacebookF /></a></li>
+                                <li><a class="email" href="#">  <SiGmail /> </a></li>
+                                <li><a class="linkedin" href="https://www.linkedin.com/in/ahmed-farghaly-b65b09236/"> <FaLinkedin /> </a></li>
                             </ul>
                         </div>
                     </div>
