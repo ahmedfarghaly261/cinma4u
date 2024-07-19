@@ -1,0 +1,42 @@
+.item_content {
+    background-color: #181c23;
+    height: 100%; 
+    width: 100%;
+    padding: 40px;
+    
+
+}
+
+.cardC {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    overflow: visible;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+
+
+
+
+.content {
+    border: solid;
+    width:250px;
+    margin: 15px;
+    color: #fff;
+    flex-direction: row !important;
+    line-height: 30px;
+    
+  
+}
+
+.content img {
+    width: 240px;
+    height: 300px !important;
+   
+}
+.content h4{
+    margin-left: 60px;
+}

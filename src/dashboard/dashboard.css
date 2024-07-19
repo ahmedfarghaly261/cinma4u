@@ -1,0 +1,38 @@
+.dashboard{
+    background-color: #141414 !important;
+   
+    
+}
+
+.sec{
+    margin-top: 30px;
+    color: aliceblue;
+    margin-left: 15px;
+    font-weight:800;
+    
+}
+.sec h2{
+    font-size: 30px
+    ;
+    margin: 20px;
+}
+.moreMovies_but{
+    float: right;
+    margin-right: 80px;
+    font-size:18px ;
+    
+}
+.line hr{
+    color: #fa172e;
+    /* font-size: 30px; */
+    height: 5px;
+}
+hr{
+    color: #fff;
+    font-size: 3px;
+} 
+#movie_icon{
+    color: #cb3939;
+    font-size: 39px;
+    
+}
