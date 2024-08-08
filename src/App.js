@@ -11,14 +11,19 @@ import ImgSlider from './Components/imgSlider/imgSlider';
 import Stars from './Components/stars/stars';
 import Card_details_2 from './Components/cards/card_details_2/card_details_2';
 import More_movies from './Components/cards/more_movies/more_movies';
+import SPLouder from './Components/preLoud/SpinnerLouder';
+import Shows from './Components/UPcomingShows/shows';
 
 function App() {
   return (
     <div className="App">
+      
+      
+      {/* <SPLouder/> */}
    <BrowserRouter>
     <Routes>
       {/* <Route path='/header'element={} /> */}
-      <Route path='/card_details'element={<Card_details/>} />
+      <Route path="/card_details"element={<Card_details/>} />
       <Route path='/'element={<Dashboard/>} />
       <Route path='/card'element={<Card/>} />
       <Route path='/footer'element={<Footer/>} />
@@ -26,6 +31,7 @@ function App() {
       <Route path='/stars'element={<Stars/>}/>
       <Route path='/Card_details2'element={<Card_details_2/>}/>
       <Route path='/More_movies'element={<More_movies/>}/>
+      <Route path='/shows'element={<Shows/>}/>
     </Routes>
    </BrowserRouter>
     </div>

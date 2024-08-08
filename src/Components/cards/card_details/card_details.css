@@ -1,40 +1,52 @@
-.Card_details{
+.page {
     background-color: #141414;
+}
+
+.head {
+    background-color: #141414 !important;
+}
+
+.main {
+
     color: aliceblue;
     height: 100vh;
+
 }
-.right{
-    /* background-color: rgb(175, 190, 203); */
-    width: 60vh;
-    height: 60vh !important;
-    /* border: solid red; */
-    float: right;
-    margin-top: 30px;
-    margin-right: 30px;
+
+.title1 h1 {
+    font-size: 38px;
+    padding-top: 40px;
+    margin-bottom: 30px;
 }
-.left{
-    /* background-color: rgb(175, 190, 203); */
-    float: left;
-    width: 130vh;
-    height: 60vh !important;
-    border: solid rgb(197, 197, 197);
-    margin-left: 50px;
-    margin-top: 30px;
+
+.posters img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.conint {
     display: flex;
-    justify-content: center;
 }
-.playI{
-    margin-top: 150px;
-    font-size: 80px;
-    color: red;
+
+.details {
+    padding: 14px;
+
+
 }
-.reactiveI{
-    margin-left: 48px;
-    width: 500px !important;
-    margin-top: 20px !important;
- 
+
+.details {
+    display: block;
 }
-.reactiveI Button{
-    width: 315px;
-    height: 50px;
+
+.video {
+    border: solid;
+    border-radius: 10px;
+    float: right;
+    margin-left: 50px;
+    width: 700px;
+    height: 400px;
 }
+.sec2{
+    color: #Ffff;
+}
+

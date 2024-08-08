@@ -18,18 +18,21 @@ export const Slider = ({ slides }) => {
             {slides.map((slides) => (
 
                 <div className='for_hover'>   
+
                 <SwiperSlide className='Slider_card'>
                     <a>
-                        <Link to={"/card_details"}>
+                        <Link to={`/card_details`}>
                             <img className='card_imge' src={slides.image} alt='error' />
                             <h2 className='card_tit' >  {slides.title} </h2>
                             <h1> <Stars/>  </h1>
                         </Link>
                     </a>
                 </SwiperSlide>  
+
                 </div>
 
             ))}
+            
         </Swiper>
     )
 

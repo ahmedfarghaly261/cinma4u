@@ -13,30 +13,38 @@
     justify-content: center;
     margin-left: 40px;
     overflow: visible;
+ 
   
 }
 
 /* On mouse-over, add a deeper shadow */
 
 
-
-
 .content {
-    border: solid;
+    background-color: rgb(39, 39, 39);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: solid; */
     width:250px;
     margin: 15px;
     color: #fff;
     flex-direction: row !important;
     line-height: 30px;
-    
+    border-radius: 15px;
+    text-align: center;
+    transition: .7s ease !important;
+    padding-top: 10px;
   
+}
+span .content:hover {
+    transform: scale(1.1, 1.1) !important;
 }
 
 .content img {
-    width: 240px;
+    width: 230px;
     height: 300px !important;
    
 }
-.content h4{
-    margin-left: 60px;
-}
+.link {color: #ffff;
+    text-decoration:none ;}
+
+
