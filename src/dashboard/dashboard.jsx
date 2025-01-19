@@ -13,22 +13,23 @@ import { RiSlideshow3Fill } from "react-icons/ri";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import Headroom from "react-headroom";
 
 
 function Dashboard() {
-    
-    useEffect(()=>{
-        AOS.init({duration:2000})
-    },[])
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
     return (<>
         <div className="dashboard">
-
-            <div className="hed"> <Header /></div>
-
+            <Headroom>
+                <div className="hed"> <Header /></div>
+            </Headroom>
             <div className="sec" data-aos="zoom-in">   <ImgeSlider /> </div>
 
             <div className="line">  f <hr width="" color="#fa172e" size="10px" /> </div>
-            
+
             <div className="sec" data-aos="fade-down" >
                 <div className="sec2" data-aos="fade-down">
                     <h2> <RiSlideshow3Fill id="movie_icon" />
@@ -45,7 +46,7 @@ function Dashboard() {
                     </Link>
                 </h2>
             </div>
-          <div className="" data-aos="fade-down"><Card /></div>  
+            <div className="" data-aos="fade-down"><Card /></div>
 
             <div className="line">  f <hr width="" color="#fa172e" size="10px" /> </div>
             <div className="sec" data-aos="fade-up">
@@ -57,10 +58,10 @@ function Dashboard() {
                     </Link>
                 </h2>
             </div>
-            <div className="" data-aos="fade-down"> <SeriesCard /> </div>  
-           
+            <div className="" data-aos="fade-down"> <SeriesCard /> </div>
+
             <div className="line">  f <hr width="" color="#fa172e" size="10px" /> </div>
-            <div className=""  data-aos="fade-left"><Footer /> </div>
+            <div className="" data-aos="fade-left"><Footer /> </div>
 
 
         </div>
